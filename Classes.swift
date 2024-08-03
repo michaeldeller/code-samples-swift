@@ -51,7 +51,7 @@ class Corgi: Dog {
     }
 }
 
-var fluffy = Poodle(legs: 3) // specify an override number of legs
+var fluffy = Corgi(legs: 3) // specify an override number of legs
 fluffy.speak()
 print("fluffy has \(fluffy.legs) legs")
 

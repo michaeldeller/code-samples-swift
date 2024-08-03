@@ -19,7 +19,6 @@
 import os.log
 
 struct Logger {
-    
     static func error(message: String) {
         os_log("%s", type: .error, message)
     }

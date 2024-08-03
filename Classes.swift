@@ -40,6 +40,8 @@ class Dog: Animal {
     }
 }
 
+// subclass Corgi inherits Dog and hase overrides
+
 class Corgi: Dog {
     // most dogs have 4 legs, so we default to that
     override init(legs: Int = 4) {
